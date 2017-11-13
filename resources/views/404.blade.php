@@ -29,7 +29,7 @@
                         <img src="{{asset('img/pages/404.gif')}}" alt="404 error image">
                     </div>
                     <hr class="seperator">
-                    <a href="{{url('index')}}" class="btn btn-primary link-home">Go Home</a>
+                    <a href="{{url('/')}}" class="btn btn-primary link-home">Go Home</a>
                 </div>
             </div>
         </div>

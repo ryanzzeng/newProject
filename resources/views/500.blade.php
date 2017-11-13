@@ -25,7 +25,7 @@
                     <img src="{{url('img/pages/500.gif')}}" alt="500 error image">
                 </div>
                 <hr class="seperator">
-                <a href="{{url('index')}}" class="btn btn-primary link-home">Try Home</a>
+                <a href="{{url('/')}}" class="btn btn-primary link-home">Try Home</a>
             </div>
         </div>
     </div>
