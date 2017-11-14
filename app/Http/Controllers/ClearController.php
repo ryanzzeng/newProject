@@ -12,7 +12,7 @@ class ClearController extends Controller
     {
         if(View::exists($name))
         {
-           return view('template/'.$name);
+           return view('template'.$name);
 
         }
         else
