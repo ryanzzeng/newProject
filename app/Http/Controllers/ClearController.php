@@ -10,6 +10,7 @@ class ClearController extends Controller
 
     public function showView($name)
     {
+        // dd(View::exists('template'.$name));
         if(View::exists('template'.$name))
         {
            return view('template'.$name);
