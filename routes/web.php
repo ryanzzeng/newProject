@@ -16,6 +16,9 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
+Route::get('/front', function () {
+    return view('front.index');
+});
 
 
 Auth::routes();
